@@ -79,7 +79,14 @@
 				'data' => $contest->getScoreBoardData(),
 				'useLatestSubmit' => True
 				])
+
+			<h3 class="ui header">Most solved</h3>
+			@include('partials.recommendedProb', [
+				'data' => $contest->getSortedTasks()
+				])
+
 		</div>
+
 
 	</div>
 </div>

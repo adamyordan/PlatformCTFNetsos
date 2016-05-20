@@ -61,6 +61,20 @@ class Contest extends Model
         return $participations;
     }
 
+    public function getSortedTasks() {
+        $tasks = $this->tasks;
+
+        $tasks = $tasks->sort(function($a, $b) {
+            if(count($a->getSolver($this)) === count($b->getSolver($this))) {
+                return $a->id - $b->id;
+            }
+            return count($a->getSolver($this)) > count($b->getSolver($this)) ? -1 : 1 ;
+        });
+
+        return $tasks;
+    }
+
+
     public function getFinalScoreBoardData() {
         return $this->participations->sortByDesc('final_position');
     }
