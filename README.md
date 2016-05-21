@@ -1,12 +1,10 @@
-[![Build Status](https://travis-ci.org/adamyordan/PlatformCTFNetsos.svg?branch=master)](https://travis-ci.org/adamyordan/PlatformCTFNetsos)
+
 
 # PlatformCTFNetsos
+[![Build Status](https://travis-ci.org/adamyordan/PlatformCTFNetsos.svg?branch=master)](https://travis-ci.org/adamyordan/PlatformCTFNetsos)
 
-```
-┏━╸┏━┓┏━┓╺┳╸┏┓╻╻┏━╸╻ ╻╺┳╸┏━╸╺┳╸┏━╸
-┣╸ ┃ ┃┣┳┛ ┃ ┃┗┫┃┃╺┓┣━┫ ┃ ┃   ┃ ┣╸ 
-╹  ┗━┛╹┗╸ ╹ ╹ ╹╹┗━┛╹ ╹ ╹ ┗━╸ ╹ ╹  
-```
+![Homepage]
+(/public/logo.png?raw=true)
 
 A Platform for Jeopardy-style Capture the Flag contests.
 
