@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/adamyordan/PlatformCTFNetsos.svg?branch=master)](https://travis-ci.org/adamyordan/PlatformCTFNetsos)
+
 # PlatformCTFNetsos
 
 ```
@@ -28,3 +30,6 @@ php artisan migrate --seed
 # serve
 php artisan serve
 ```
+
+## Contributing
+Please read [ this ](https://github.com/adamyordan/PlatformCTFNetsos/wiki/Contributing) for more information.
